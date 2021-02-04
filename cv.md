@@ -23,6 +23,18 @@ I am a results-driven, interface developing enthusiast with extensive training i
 upper-intermediate(B2),
 - speaking skills – intermediate(B1).
 
+## CODE EXAMPLE
+_This code squares every digit of a number and concatenates them._
+```javascript
+function squareDigits(num){
+  let arr = `${num}`.split('');
+  arr.forEach((element, index) => {
+    arr[index] = element ** 2;
+  });
+  return +arr.join('');
+}
+```
+
 ## EDUCATION
 ### _Belarusian State Economic University_
 _2017 - 2021_ <br>
