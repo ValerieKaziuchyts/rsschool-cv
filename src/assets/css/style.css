@@ -218,6 +218,9 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.hard-skills__wrapper li {
+  list-style-type: none;
+}
 .hard-skill {
   margin-bottom: 9px;
   padding: 4px 25px;
@@ -255,6 +258,9 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+.soft-skills__wrapper li {
+  list-style-type: none;
 }
 .soft-skill {
   margin-bottom: 9px;
@@ -339,9 +345,6 @@ header {
   }
 }
 @media (max-width: 585px) {
-  main {
-    padding-bottom: 20px;
-  }
   main,
   .objective,
   .summary {
@@ -374,7 +377,6 @@ header {
 }
 @media (max-width: 585px) {
   main {
-    padding-bottom: 20px;
     width: 100%;
   }
   .contacts {
